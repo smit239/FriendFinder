@@ -1,10 +1,11 @@
 {
   "name": "FriendFinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Created during Georgia Tech Coding Bootcamp. The goal was to create a Friend Finder app (essentially a dating app but for friends) using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a \"friend\" that has the closest match to them.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/smit239/FriendFinder/issues"
   },
-  "homepage": "https://github.com/smit239/FriendFinder#readme"
+  "homepage": "https://github.com/smit239/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
